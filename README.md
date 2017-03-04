@@ -17,7 +17,7 @@
 - 如果你想参与完善该教程, 请移步到 Github 上进行 Fork：
 - 地址：[https://github.com/Keveon/spring-security-demo](https://github.com/Keveon/spring-security-demo)
 
-#### 准备工作
+## 准备工作
 
 在开始提到, 本项目采用SpringBoot做基础架构支撑, 项目中使用`spring-security`的推荐方法是使用依赖关系管理系统,也就是我们平时所说的包管理器、构建工具. 下面两种工具对应的代码段可以复制并粘贴到您的项目中.
 如需帮助, 请参阅我们使用 [Maven](https://spring.io/guides/gs/maven/) 和 [Gradle](https://spring.io/guides/gs/gradle/) 构建的入门指南.
