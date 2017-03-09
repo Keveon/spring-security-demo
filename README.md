@@ -9,8 +9,6 @@
 - 项目中Bean全部采用 [lombok](https://projectlombok.org/) 进行精简, 需要配合IDE插件使用, 在此项目不进行讨论, 如需了解更多, 参考以下链接：
   - 官方文档地址：[https://projectlombok.org/features/index.html](https://projectlombok.org/features/index.html)
   - 官方下载地址：[https://projectlombok.org/download.html](https://projectlombok.org/download.html)
-  - 第三方英文文档：[http://jnb.ociweb.com/jnb/jnbJan2010.html](http://jnb.ociweb.com/jnb/jnbJan2010.html)
-  - 第三方中文文档：[http://blog.csdn.net/u011719271/article/details/53842420](http://blog.csdn.net/u011719271/article/details/53842420)
   - lombok-intellij-plugin：[https://github.com/mplushnikov/lombok-intellij-plugin](https://github.com/mplushnikov/lombok-intellij-plugin)
 - 教程目前在不定时进行调整和补充, 需要关注更新的请Watch、Star、Fork.
 - 同时邀请您一起参与完善该教程, 帮助更多的人, 欢迎反馈错误和意见！
