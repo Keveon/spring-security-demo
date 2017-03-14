@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-- 本项目采用 [SpringBoot](http://projects.spring.io/spring-boot/) 当前最新的1.5.1.RELEASE 做基础架构支撑, 参考本项目建议有一定的 [SpringBoot](http://projects.spring.io/spring-boot/) 基础及经验.
+- 本项目采用 [SpringBoot](http://projects.spring.io/spring-boot/) 当前最新的1.5.2.RELEASE 做基础架构支撑, 参考本项目建议有一定的 [SpringBoot](http://projects.spring.io/spring-boot/) 基础及经验.
 - 教程主要面向中文用户, 如果你英文良好, 建议直接阅读官网帮助文档.
   - 官网地址：[http://projects.spring.io/spring-security/](http://projects.spring.io/spring-security/)
   - 官方文档地址：[http://docs.spring.io/spring-security/site/docs/current/reference/html/](http://docs.spring.io/spring-security/site/docs/current/reference/html/)
@@ -11,9 +11,12 @@
   - 官方下载地址：[https://projectlombok.org/download.html](https://projectlombok.org/download.html)
   - lombok-intellij-plugin：[https://github.com/mplushnikov/lombok-intellij-plugin](https://github.com/mplushnikov/lombok-intellij-plugin)
 - 教程目前在不定时进行调整和补充, 需要关注更新的请Watch、Star、Fork.
-- 同时邀请您一起参与完善该教程, 帮助更多的人, 欢迎反馈错误和意见！
-- 如果你想参与完善该教程, 请移步到 Github 上进行 Fork：
+- 本项目参考到的文章：
+  - <http://www.cnblogs.com/softidea/p/5991897.html>
 - 地址：[https://github.com/Keveon/spring-security-demo](https://github.com/Keveon/spring-security-demo)
+
+## 框架简介
+> [Spring Security](http://projects.spring.io/spring-security/) 是Spring社区的一个顶级项目, 也是 [SpringBoot](http://projects.spring.io/spring-boot/) 官方推荐使用的Security框架. 除了常规的 `Authentication` 和 `Authorization` 之外，Spring Security还提供了诸如 `ACLs`, `LDAP`, `JAAS`, `CAS` 等高级特性以满足复杂场景下的安全需求. 虽然功能强大, Spring Security的配置并不算复杂(得益于官方详尽的文档), 尤其在3.2版本加入 `Java Configuration` 的支持之后, 可以彻底告别令不少初学者望而却步的 `XML Configuration`. 在使用层面, Spring Security提供了多种方式进行业务集成, 包括注解, `Servlet API`, `JSP Tag`, `系统API` 等.
 
 ## 准备工作
 
@@ -39,9 +42,10 @@ dependencies {
 }
 ```
 
-## 正式开始
-
-###### 暂空
+## 模块介绍
+- [basic](basic): 只有最基本的入门.
+- [advanced-use-sql](advanced-use-sql): 自定义表结构, 采用sql语句授权.
+- [advanced-use-service](advanced-use-service): 自定义表结构的基础上, 采用实现 `Spring Security` 提供的 `UserDetailsService` 及 `PermissionEvaluator` 两个接口的方式, 配置更灵活, 更易于扩展. 
 
 ## 附录A：Github 常用按钮说明
 

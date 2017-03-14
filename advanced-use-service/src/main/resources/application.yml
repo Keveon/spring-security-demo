@@ -1,0 +1,24 @@
+spring:
+  thymeleaf:
+    mode: HTML
+    cache: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
+    username: demo
+    password: demo
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    properties:
+      dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: create
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+logging:
+  level:
+    com.keveon: trace
+    com.mysql: warn
+    org.hibernate: warn
+    org.thymeleaf: warn
+    org.springframework: warn
